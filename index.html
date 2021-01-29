@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+    <link href="css/restart.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <h1>rock</h1>
+                <h1>paper</h1>
+                <h1>scissors</h1>
+            </div>
+            <div class="score__window">
+                <h3>score</h3>
+                <span class="score__result"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <img class="triangle" src="images/bg-triangle.svg"></img>
+            <button class="circle__button circle__button--blue">
+                <div class="circle circle--blue">
+                    <div class="circle__white">
+                        <img src="images/icon-paper.svg"></img>
+                    </div>
+                </div>
+            </button>
+            <button class="circle__button circle__button--yellow">
+                <div class="circle circle--yellow">
+                    <div class="circle__white">
+                        <img src="images/icon-scissors.svg"></img>
+                    </div>
+                </div>
+            </button>
+            <button class="circle__button circle__button--red">
+                <div class="circle circle--red">
+                    <div class="circle__white">
+                        <img src="images/icon-rock.svg"></img>
+                    </div>
+                </div>
+            </button>
+            <div class="result">
+                <div class="result__writing">
+                    <h2 class="result__you">You Picked</h2>
+                    <h2 class="result__house">The House Picked</h2>
+                </div>
+                <h1 class="result__verdict"></h1>
+                <button class="result__button">Play Again</button>
+                <button class="result__circle circle__button">
+                    <div class="circle">
+                        <div class="circle__white">
+                            <img></img>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <button class="rules__button">rules</button>
+        <section class="rules__window">
+            <div class="background"></div>
+            <div class="rules__board">
+                <div>
+                    <h1>rules</h1>
+                    <button class="rules__close__button"><img src="images/icon-close.svg"></img></button>
+                </div>
+                <img src="images/image-rules.svg"></img>
+            </div>
+        </section>
+    </aside>
+</body>
+</html>
